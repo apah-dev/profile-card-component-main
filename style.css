@@ -35,7 +35,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 90%;
   border-radius: 1rem;
   background-color: white;
   box-shadow: 0rem 0rem 1rem hsla(227, 10%, 46%, 0.2);
@@ -44,6 +44,7 @@ main {
 .pattern-image {
   border-top-right-radius: 1rem;
   border-top-left-radius: 1rem;
+  width: 100%;
 }
 
 .victor-image-container {
