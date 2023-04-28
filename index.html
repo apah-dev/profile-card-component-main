@@ -16,126 +16,9 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="style.css" />
 
     <title>Frontend Mentor | Profile card component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
-      :root {
-        --Darkcyan: hsl(185, 75%, 39%);
-        --Verydarkdesaturatedblue: hsl(229, 23%, 23%);
-        --Darkgrayishblue: hsl(227, 10%, 46%);
-        --verydarkcyan: hsl(180, 100%, 20%);
-      }
-      body {
-        display: grid;
-        place-content: center;
-        min-height: 100vh;
-        font-family: "Kumbh Sans", sans-serif;
-        background-color: var(--Darkcyan);
-
-        /* background-image: url(images/bg-pattern-top.svg),
-          url(images/bg-pattern-bottom.svg);
-        /* transform: translate(-60%, -60%);
-        transform: translate(60%, 60%); */
-        /* background-repeat: no-repeat, no-repeat;
-        background-size: contain, contain;
-        background-position: 100%, -100%;  */
-      }
-
-      /* .bg-top {
-        transform: translate(-60%, -60%);
-      }
-
-      .bg-bottom {
-        transform: translate(60%, 60%);
-      } */
-
-      main {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        border-radius: 1rem;
-        background-color: white;
-        box-shadow: 0rem 0rem 1rem hsla(227, 10%, 46%, 0.2);
-      }
-
-      .pattern-image {
-        border-top-right-radius: 1rem;
-        border-top-left-radius: 1rem;
-      }
-
-      .victor-image-container {
-        margin-top: -3.5rem;
-        width: 5rem;
-        height: 5rem;
-        background-color: white;
-        border-radius: 50px;
-        border: 5px solid white;
-      }
-
-      .victor-image {
-        width: 100%;
-        border-radius: 3rem;
-      }
-      .name-age {
-        font-size: 0.5rem;
-      }
-
-      .name-age span {
-        color: var(--Darkgrayishblue);
-        font-weight: 400;
-      }
-      .city p {
-        color: var(--Darkgrayishblue);
-      }
-
-      hr {
-        width: 100%;
-        border: 0.05rem solid hsla(227, 10%, 46%, 0.2);
-      }
-
-      .status {
-        display: flex;
-        flex-direction: row;
-      }
-
-      .data {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        line-height: 0.1rem;
-        margin-right: 2rem;
-      }
-
-      .data:nth-of-type(1) {
-        margin-left: 1.5rem;
-      }
-
-      .data h2 {
-        margin-bottom: 0.5rem;
-        font-size: 1rem;
-      }
-
-      .data p {
-        font-size: 0.8rem;
-        color: var(--Darkgrayishblue);
-        letter-spacing: 0.1rem;
-      }
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-        margin-top: 2rem;
-        color: white;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <!-- <img class="bg-top" src="images/bg-pattern-top.svg" />
@@ -143,7 +26,11 @@
 
     <main>
       <div class="pattern">
-        <img class="pattern-image" src="images/bg-pattern-card.svg" />
+        <img
+          class="pattern-image"
+          src="images/bg-pattern-card.svg"
+          alt="pattern"
+        />
       </div>
       <div class="victor-image-container">
         <img class="victor-image" src="images/image-victor.jpg" alt="victor" />
