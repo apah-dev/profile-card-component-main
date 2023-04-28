@@ -42,23 +42,25 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 Learnt a new way to centeralize everything within the body element
 
-To see how you can add code snippets, see below:
+Learnt to use more than one background image for the body element along with a bg-color
 
-```html
-
-```
+````
 
 ```css
+  background-image: url(images/bg-pattern-top.svg),
+  url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: right 50vw bottom 42vh, left 47vw top 46vh;
+
+
 display: grid;
 place-content: center;
 min-height: 100vh;
-```
+````
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I'll learn how to use the vw and vh properties to position images in the background
 
 ## Author
 
@@ -67,4 +69,4 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+Huge thanks to creators at front end mentor for their advice
