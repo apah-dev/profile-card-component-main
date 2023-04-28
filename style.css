@@ -10,6 +10,7 @@ body {
   display: grid;
   place-content: center;
   min-height: 100vh;
+
   font-family: "Kumbh Sans", sans-serif;
   background-color: var(--Darkcyan);
   background-image: url(images/bg-pattern-top.svg),
@@ -30,7 +31,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 90%;
+  width: 100%;
   border-radius: 1rem;
   background-color: white;
   box-shadow: 0rem 0rem 1rem hsla(227, 10%, 46%, 0.2);
